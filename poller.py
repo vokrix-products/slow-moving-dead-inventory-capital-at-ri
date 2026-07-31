@@ -55,7 +55,10 @@ def process_job(job):
     try:
         # Download input file from uploads bucket
         bucket = "uploads"
-        file_path = (job.get('input_file_paths') or [job.get('input_file_path')] )[0]
+        paths = job.get('input_file_paths') or []
+        if not paths and job.get('input_file_path'):
+            paths = [job['input_file_path']]
+        file_path = paths[0] if paths else ''
         local_file = os.path.basename(file_path)
         download_file(bucket, file_path, local_file)
 
