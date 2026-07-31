@@ -41,3 +41,7 @@ retailers can see exactly how much working capital is at risk.
 - **Continuous polling**: `python poller.py`
 - **Quick demo**: `python run_demo.py` — processes a hardcoded sample report and prints JSON.
 - **Tests**: `python -m unittest run_tests.py` — mocked unit tests, no API call needed.
+
+Dashboard: https://slow-moving-dead-inventory-capital-at-ri.vokrix.co
+Vercel: slow-moving-dead-inventory-capital-at-ri
+Railway: 
