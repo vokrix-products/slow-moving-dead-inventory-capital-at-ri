@@ -45,3 +45,4 @@ retailers can see exactly how much working capital is at risk.
 Dashboard: https://slow-moving-dead-inventory-capital-at-ri.vokrix.co
 Vercel: slow-moving-dead-inventory-capital-at-ri
 Railway: 
+Railway: slow-moving-dead-inventory-capital-at-ri
