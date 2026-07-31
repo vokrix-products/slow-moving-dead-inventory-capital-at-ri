@@ -46,3 +46,4 @@ Dashboard: https://slow-moving-dead-inventory-capital-at-ri.vokrix.co
 Vercel: slow-moving-dead-inventory-capital-at-ri
 Railway: 
 Railway: slow-moving-dead-inventory-capital-at-ri
+Cloudflare: slow-moving-dead-inventory-capital-at-ri.vokrix.co
