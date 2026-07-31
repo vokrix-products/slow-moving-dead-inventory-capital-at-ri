@@ -60,7 +60,8 @@ def process_job(job):
         download_file(bucket, file_path, local_file)
 
         # Run processor
-        result = processor.process(local_file)  # assuming process returns list of records
+        with open(local_file, "rb") as f:
+            result = processor.process_file(f.read())
 
         # Write records
         for rec in result:
