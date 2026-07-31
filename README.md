@@ -47,3 +47,6 @@ Vercel: slow-moving-dead-inventory-capital-at-ri
 Railway: 
 Railway: slow-moving-dead-inventory-capital-at-ri
 Cloudflare: slow-moving-dead-inventory-capital-at-ri.vokrix.co
+
+Billing: 
+Billing: price_1TzHNO2c9uGCcgMSi9B8fQiJ
