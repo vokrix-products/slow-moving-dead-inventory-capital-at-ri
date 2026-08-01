@@ -55,3 +55,7 @@ Landing: https://vokrix.co/slow-moving-dead-inventory-capital-at-ri
 
 Outreach: active
 Billing webhook CORS: OK
+
+
+## CORS Fix
+Added https://slow-moving-dead-inventory-capital-at-ri.vokrix.co to the vokrix-billing-webhook origins list so dashboard outreach activation works.
