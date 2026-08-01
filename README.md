@@ -5,3 +5,7 @@ CORS fix applied to billing webhook for https://slow-moving-dead-inventory-capit
 
 ## QA Fix
 - Added https://slow-moving-dead-inventory-capital-at-ri.vokrix.co to billing webhook CORS allowlist.
+
+## Billing Webhook CORS
+
+The billing webhook now accepts requests from https://slow-moving-dead-inventory-capital-at-ri.vokrix.co
